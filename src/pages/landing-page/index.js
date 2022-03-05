@@ -135,13 +135,15 @@ const LandingPage = () => {
 
           {/* ABOUT START */}
           <section className="container-fluid">
-              <div className="justify-content-center">
-                <h1 className="text-white text-center">
+              <div className=" row justify-content-center">
+                <h1 className="text-white text-center col-12">
                 About OpenAfrica
                 </h1>
-                <p className="text-center col-6" style={{color:'#c9c9c9'}}>
+                <center>
+                  <p className="text-center col-6" style={{color:'#c9c9c9'}}>
                   We aim to be the most complete defi platform covering all aspect of defi and 
                   putting defi within the reach of millions</p>
+                </center>
               </div>
             </section>
             {/* ABOUT END  */}
