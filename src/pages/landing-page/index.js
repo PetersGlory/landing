@@ -2,10 +2,13 @@ import React from 'react-router-dom';
 
 
 const LandingPage = () => {
+  useEffect(()=>{
+    document.getElementById('spinner').style.display="none"
+  },[])
     return(
         <div>
       <div>
-        <div className="se-pre-con">
+        <div className="se-pre-con" id="spinner">
           <div className="spinner">
             <div className="triple-spinner" />
           </div>
