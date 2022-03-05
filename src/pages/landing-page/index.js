@@ -112,14 +112,20 @@ const LandingPage = () => {
               <svg className="shape_3" width={350} height={350} xmlns="http://www.w3.org/2000/svg" viewBox="844 111 601 604"><path fill="#4e11be" d="M1175.9,111L1445,456.9L1113.1,715L844,369.1L1175.9,111z" /></svg>
             </div>
             <div className="container">
-              <div className="bread-detail align-center">
-                <h2 className="bread-title mb-20 mb-md-15">Login</h2>
-                <div className="bread-crumb ">
-                  <ul>
-                    <li><a href="index.html"><i className="fa fa-home" /> Home</a>/</li>
-                    <li><span>Login</span></li>
-                  </ul>
+              <div className="bread-detail row">
+                <div className="col-6">
+                  <h1 className="text-white">
+                  Secure and Decentralised Trading with OPENAFRICA
+                  </h1>
+                  <p style={{color:'#c9c9c9'}}>
+                    Flutterswap possesses a wide range of products that makes it a complete defi ecosystem. 
+                    The complete suite of products makes it easy to onboard users into the crypto world.
+                  </p>
+                  <p style={{color:'#c9c9c9'}}>
+                   We aim to be the most complete defi platform covering all aspect of defi and putting defi within the reach of millions.
+                  </p>
                 </div>
+                <div className="col-6"></div>
               </div>
             </div>
           </section>
