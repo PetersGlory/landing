@@ -1,4 +1,4 @@
-import React from 'react-router-dom';
+import React, {useEffect} from 'react';
 
 
 const LandingPage = () => {
