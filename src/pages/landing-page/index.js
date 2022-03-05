@@ -212,6 +212,20 @@ const LandingPage = () => {
             </div>
           </section>
           {/* CONTAINER END */}
+
+            {/* ABOUT START */}
+            <section className="container-fluid">
+              <div className="justify-content-center">
+                <h1 className="text-white">
+                About OpenAfrica
+                </h1>
+                <p className="text-center" style={{color:'#c9c9c9'}}>
+                  We aim to be the most complete defi platform covering all aspect of defi and 
+                  putting defi within the reach of millions</p>
+              </div>
+            </section>
+            {/* ABOUT END  */}
+
           {/* FOOTER START */}
           <div className="footer dark-bg">
             {/* News Letter Start */}
