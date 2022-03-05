@@ -119,11 +119,11 @@ const LandingPage = () => {
                   <h1 className="text-white">
                     <b>Secure and Decentralised Trading with OPENAFRICA</b>
                   </h1>
-                  <p style={{color:'#c9c9c9'}} className="col-5">
+                  <p style={{color:'#c9c9c9'}} className="col-11">
                     Flutterswap possesses a wide range of products that makes it a complete defi ecosystem. 
                     The complete suite of products makes it easy to onboard users into the crypto world.
                   </p>
-                  <p style={{color:'#c9c9c9'}}>
+                  <p style={{color:'#c9c9c9'}} className="col-11">
                    We aim to be the most complete defi platform covering all aspect of defi and putting defi within the reach of millions.
                   </p>
                 </div>
