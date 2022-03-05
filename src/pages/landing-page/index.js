@@ -3,7 +3,9 @@ import React, {useEffect} from 'react';
 
 const LandingPage = () => {
   useEffect(()=>{
-    document.getElementById('spinner').style.display="none"
+    setTimeout(()=>{
+      document.getElementById('spinner').style.display="none"
+    }, 1000)
   },[])
     return(
         <div>
@@ -115,9 +117,9 @@ const LandingPage = () => {
               <div className="bread-detail row">
                 <div className="col-6">
                   <h1 className="text-white">
-                  Secure and Decentralised Trading with OPENAFRICA
+                    <b>Secure and Decentralised Trading with OPENAFRICA</b>
                   </h1>
-                  <p style={{color:'#c9c9c9'}}>
+                  <p style={{color:'#c9c9c9'}} className="col-5">
                     Flutterswap possesses a wide range of products that makes it a complete defi ecosystem. 
                     The complete suite of products makes it easy to onboard users into the crypto world.
                   </p>
