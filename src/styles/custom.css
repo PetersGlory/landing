@@ -327,7 +327,7 @@ _______________________________________________________*/
     position: relative;
   }
   h2.title-bg {
-    background: rgba(0, 0, 0, 0) url("../images/title-icon.html") no-repeat scroll center bottom;
+    background: rgba(134, 116, 116, 0) /*url("../images/title-icon.html")*/ no-repeat scroll center bottom;
     padding-bottom: 15px;
   }
   h3 {
@@ -561,7 +561,7 @@ _______________________________________________________*/
     outline: none !important;
   }
   select {
-    background: url(../images/select-icon.png) no-repeat scroll right 50% transparent !important;
+    /* background: url(../images/select-icon.png) no-repeat scroll right 50% transparent !important; */
     line-height: 18px;
     border: 1px solid #0ab1e8;
     padding: 0 25px 0 10px;
@@ -649,7 +649,7 @@ _______________________________________________________*/
   }
   .select-dropdown .ui-state-default {
     border: none; 
-    background: rgba(0,0,0,0) url(../images/select-icon.png) no-repeat scroll right 50% !important;
+    background: rgba(0,0,0,0) /*url(../images/select-icon.png)*/ no-repeat scroll right 50% !important;
     font-weight: 400;
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
@@ -757,13 +757,13 @@ _______________________________________________________*/
     margin-top: 6px; 
   }
   .checkbox:checked + label::after {
-      background-image: url("../images/check-box-icon.png");
+      /* background-image: url("../images/check-box-icon.png"); */
       background-repeat: no-repeat;
       margin-left: 2px;
       margin-top: 4px;
   }
   input.radio-button:checked + label::before {
-      background-image: url("../images/radio-icon.html");
+      /* background-image: url("../images/radio-icon.html"); */
       background-position: -2px -2px;
       background-repeat: no-repeat;
   }
@@ -918,7 +918,7 @@ _______________________________________________________*/
   .scroll-top .scrollup::before {
     color: #fff;
     content: "";
-    background: rgba(0,0,0,0) url(../images/top-arrow.svg) no-repeat center center;
+    background: rgba(0,0,0,0) /*url(../images/top-arrow.svg)*/ no-repeat center center;
     top: 50%;
     left: 50%;
     position: absolute;
@@ -1258,7 +1258,7 @@ _______________________________________________________*/
     z-index: 0;
 }
 .banner-bg::after {
-    background: rgba(0, 0, 0, 0) url("../images/banner-bg.svg") no-repeat scroll left center;
+    background: rgba(0, 0, 0, 0) /*url("../images/banner-bg.svg")*/ no-repeat scroll left center;
     content: "";
     position: absolute;
     top: 0px;
@@ -1489,12 +1489,12 @@ svg.shape_7 {
 
 /*------------- Best features Start ---------*/
 .bg-pattern {
-  background-image: url(../images/bg-pattern.svg) ;
+  /* background-image: url(../images/bg-pattern.svg) ; */
   background-position: center center;
   background-repeat: no-repeat;
 }
 .bg-pattern2 {
-  background-image: url(../images/wave-pattern.png) ;
+  /* background-image: url(../images/wave-pattern.png) ; */
   background-position: center center;
   background-repeat: no-repeat;
 }
@@ -2050,7 +2050,7 @@ td.table-head, td.table-des {
 .app-feature-box {max-width: 410px; text-align: center; margin: 0 auto;height: 100%;}
 /* app slider section end */
 .app-box-bg {
-  background: rgba(0, 0, 0, 0) url("../images/app-bg.svg") no-repeat scroll center center;
+  background: rgba(0, 0, 0, 0) /*url("../images/app-bg.svg")*/ no-repeat scroll center center;
   content: "";
   position: absolute;
   top: 0;
@@ -2690,7 +2690,7 @@ td.table-head, td.table-des {
 }
 .team-slider .owl-prev, .team-slider .owl-next, 
 .blog .owl-prev, .blog .owl-next  {
-	background: url("../images/sprite.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+	/* background: url("../images/sprite.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0) !important; */
 	position: absolute;
 	height: 30px;
 	width: 20px;
@@ -2817,7 +2817,7 @@ td.table-head, td.table-des {
     content: "";
     opacity: 0.75;
     font-size: 14px;
-    background: rgba(0,0,0,0) url(../images/minus.svg) no-repeat center center;
+    background: rgba(0,0,0,0) /*url(../images/minus.svg)*/ no-repeat center center;
     position: absolute;
     top: 50%;
     right: 15px;
@@ -2826,7 +2826,7 @@ td.table-head, td.table-des {
     transform: translateY(-50%);
   }
   .accordion .card-header.collapsed:after {
-    background: rgba(0,0,0,0) url(../images/plus.svg) no-repeat center center;
+    background: rgba(0,0,0,0) /*url(../images/plus.svg)*/ no-repeat center center;
     opacity: 0.75;
   }
   .accordion .card-header:hover:after, .accordion .card-header.collapsed:hover:after {
@@ -2962,7 +2962,7 @@ td.table-head, td.table-des {
   }
 
 .search-box button.search-btn {
-  background: url("../images/sprite.png") no-repeat scroll -8px -132px #0ab1e8;
+  /* background: url("../images/sprite.png") no-repeat scroll -8px -132px #0ab1e8; */
   border: none;
   height: 40px;
   width: 40px;
@@ -3004,7 +3004,7 @@ td.table-head, td.table-des {
 .listing-box ul li a:hover { color: #0ab1e8; }
 .listing-box ul li a::after {
   content: "";
-  background: rgba(0,0,0,0) url(../images/right-arrow.svg) no-repeat center center;
+  background: rgba(0,0,0,0) /*url(../images/right-arrow.svg)*/ no-repeat center center;
   position: absolute;
   top: 50%;
   left: 0;
@@ -3117,7 +3117,7 @@ ul.tagcloud li a:hover {
     z-index: 3;
     width: 40px;
     height: 40px;
-    background: url("../images/play-button.svg") no-repeat center center;
+    /* background: url("../images/play-button.svg") no-repeat center center; */
     margin-right: 0;
   }
   .popup-youtube:before {
@@ -3531,7 +3531,7 @@ _______________________________________________________*/
 .footer:after {
   content: "";
   position: absolute;
-  background: url("../images/footer-bg.png") no-repeat center center;
+  /* background: url("../images/footer-bg.png") no-repeat center center; */
   bottom: -32%;
   width: 100%;
   height: 100%;

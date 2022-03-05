@@ -316,7 +316,7 @@
 	#menu .mobile-sub-menu {  display: none; }
 
 	#menu span.opener, .footer-static-block span.opener, .sidebar-box span.opener {
-		background: url(../images/sprite.png) no-repeat scroll 0 0;
+		/* background: url(../images/sprite.png) no-repeat scroll 0 0; */
 		height: 30px;
 		width: 30px;
 		display: inline-block;
@@ -646,7 +646,7 @@
 	.owl-carousel .owl-dots { bottom: 5px; }
 	.team-slider .owl-prev, .team-slider .owl-next, 
 	.blog .owl-prev, .blog .owl-next  {
-		background: url("../images/sprite.png") no-repeat scroll 0 0 #0ab1e8 !important;
+		/* background: url("../images/sprite.png") no-repeat scroll 0 0 #0ab1e8 !important; */
 		top: 50%;
 		width: 30px;
 		height: 40px;
