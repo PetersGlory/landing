@@ -24,8 +24,8 @@ export const About = () => {
                     <div>
                       <ul>
                         <li className="row mt-1">
-                            <div className="col-1">
-                              <i className="fa fa-users"></i>
+                            <div className="col-1 bg-primary p-1" style={{fontSize:"30px",borderRadius:"50%", height:"40px"}}>
+                              <i className="fa fa-users text-white" style={{width:"inherit",height:"50px"}}></i>
                             </div>
                             <div className="col-11">
                               <h3 className="text-white text-start"><b>Decentralized Platform</b></h3>
@@ -36,8 +36,8 @@ export const About = () => {
                             </div>
                         </li>
                         <li className="row mt-4">
-                            <div className="col-1">
-                              <i className="fa fa-users"></i>
+                            <div className="col-1 bg-primary p-1" style={{fontSize:"30px",borderRadius:"50%", height:"40px"}}>
+                              <i className="fa fa-globe text-white" style={{width:"inherit",height:"50px"}}></i>
                             </div>
                             <div className="col-11">
                               <h3 className="text-white text-start"><b>24/7 support</b></h3>
@@ -48,8 +48,8 @@ export const About = () => {
                             </div>
                         </li>
                         <li className="row mt-4">
-                            <div className="col-1">
-                              <i className="fa fa-star"></i>
+                            <div className="col-1 bg-primary p-1" style={{fontSize:"30px",borderRadius:"50%", height:"40px"}}>
+                              <i className="fa fa-star text-white" style={{width:"inherit",height:"50px"}}></i>
                             </div>
                             <div className="col-11">
                               <h3 className="text-white text-start"><b>Pentested</b></h3>

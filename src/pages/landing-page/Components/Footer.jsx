@@ -50,11 +50,11 @@ export const Footer = () => {
                         <div className="footer-block-contant">
                           <p>Lorem khaled ipsum is a major key to success. It’s on you how you want to live your Lorem khaled ipsum is a major key to success. It’s on you how you want to live your life. Always remember in the jungle.</p>
                           <ul className="social-icon">
-                            <li><a title="Facebook" className="facebook" href='/something'><i className="fab fa-facebook-f" /></a></li>
-                            <li><a title="Twitter" className="twitter" href='/something'><i className="fab fa-twitter" /></a></li>
-                            <li><a title="Linkedin" className="linkedin" href='/something'><i className="fab fa-linkedin-in" /></a></li>
-                            <li><a title="RSS" className="rss" href='/something'><i className="fas fa-rss" /></a></li>
-                            <li><a title="Pinterest" className="pinterest" href='/something'><i className="fab fa-pinterest-p" /></a></li>
+                            <li><a title="Facebook" className="facebook" href='/something'><i className="fa fa-facebook-f" /></a></li>
+                            <li><a title="Twitter" className="twitter" href='/something'><i className="fa fa-twitter" /></a></li>
+                            <li><a title="Linkedin" className="linkedin" href='/something'><i className="fa fa-linkedin" /></a></li>
+                            <li><a title="RSS" className="rss" href='/something'><i className="fa fa-rss" /></a></li>
+                            <li><a title="Pinterest" className="pinterest" href='/something'><i className="fa fa-pinterest-p" /></a></li>
                           </ul>
                         </div>
                       </div>

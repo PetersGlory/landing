@@ -22,7 +22,7 @@ export const Contact = () => {
                           </div>
                           <p className="text-white mt-4">
                               <h3><b>Follow us On</b></h3>
-                              <ul className="row">
+                              {/* <ul className="row">
                                   <li className="col-3">
                                       <i className="fa fa-facebook"></i>
                                   </li>
@@ -32,7 +32,14 @@ export const Contact = () => {
                                   <li className="col-3">
                                       <i className="fa fa-twitter"></i>
                                   </li>
-                              </ul>
+                              </ul> */}
+                            <ul className="social-icon justify-content-between">
+                                <li><a title="Facebook" className="facebook" href='/something'><i className="fa fa-facebook-f" /></a></li>
+                                <li><a title="Twitter" className="twitter" href='/something'><i className="fa fa-twitter" /></a></li>
+                                <li><a title="Linkedin" className="linkedin" href='/something'><i className="fa fa-linkedin" /></a></li>
+                                <li><a title="RSS" className="rss" href='/something'><i className="fa fa-rss" /></a></li>
+                                <li><a title="Pinterest" className="pinterest" href='/something'><i className="fa fa-pinterest-p" /></a></li>
+                          </ul>
                           </p>
                       </div>
                       <div className="col-lg-8 col-sm-12">
