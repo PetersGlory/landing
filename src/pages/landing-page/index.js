@@ -1,4 +1,5 @@
 import React, {useEffect} from 'react';
+import btc from "../../assets/bg-home2.png"
 
 
 const LandingPage = () => {
@@ -7,6 +8,7 @@ const LandingPage = () => {
       document.getElementById('spinner').style.display="none"
     }, 1000)
   },[])
+  
     return(
         <div>
       <div>
@@ -18,7 +20,7 @@ const LandingPage = () => {
         {/* Loader End */}
         <div className="main">
           {/* HEADER START */}
-          <header className="navbar navbar-custom header" id="header">
+          <header className="navbar navbar-custom header" style={{backgroundColor:"rgb(32,35,155)"}} id="header">
             <div className="navbar-expand">
               <div className="container">
                 <div className="row m-0 align-items-center">
@@ -26,7 +28,7 @@ const LandingPage = () => {
                     <div className="header-middle-left">
                       <div className="logo navbar-header float-none-sm">
                         <a className="navbar-brand page-scroll" href="index.html">
-                          OPENAFRICA
+                          <b>OPENAFRICA</b>
                         </a> 
                       </div>
                     </div>
@@ -114,36 +116,54 @@ const LandingPage = () => {
               <svg className="shape_3" width={350} height={350} xmlns="http://www.w3.org/2000/svg" viewBox="844 111 601 604"><path fill="#4e11be" d="M1175.9,111L1445,456.9L1113.1,715L844,369.1L1175.9,111z" /></svg>
             </div>
             <div className="container">
-              <div className="bread-detail row">
-                <div className="col-6">
-                  <h1 className="text-white">
-                    <b>Secure and Decentralised Trading with OPENAFRICA</b>
-                  </h1>
-                  <p style={{color:'#c9c9c9'}} className="col-11">
+              <div className="row justify-content-between">
+                <div className="col-lg-5 col-md-12 ">
+                  <h2 className="text-white">
+                    Secure and Decentralised Trading with OPENAFRICA
+                  </h2>
+                  <p style={{color:'#c9c9c9', fontWeight:'700'}} className="col-11">
                     Flutterswap possesses a wide range of products that makes it a complete defi ecosystem. 
                     The complete suite of products makes it easy to onboard users into the crypto world.
                   </p>
-                  <p style={{color:'#c9c9c9'}} className="col-11">
+                  <p style={{color:'#c9c9c9', fontWeight:'700'}} className="col-11">
                    We aim to be the most complete defi platform covering all aspect of defi and putting defi within the reach of millions.
                   </p>
+                  <button className="mx-auto btn btn-primary bg-primary">FLUTTERSWAP WHITEPAPER</button>
                 </div>
-                <div className="col-6"></div>
+                <div className="col-lg-6 col-md-12  p-2">
+                    <div className="container p-3 pt-5 pb-5 bg-secondarys">
+                      <h4 className="text-center mt-3 mb-5 pb-5 pt-4">
+                        <b>FLUTTERSWAP CONTRACT</b>
+                      </h4>
+                      <button className="mx-auto btn btn-primary btn-block shadow">BSCSCAN EXPLORER</button>
+                    </div>
+                </div>
               </div>
             </div>
           </section>
           {/* Bread Crumb END */} 
 
           {/* ABOUT START */}
-          <section className="container-fluid">
+          <section className="container-fluid mt-5">
               <div className=" row justify-content-center">
-                <h1 className="text-white text-center col-12">
-                About OpenAfrica
+                <h1 className="text-white text-center col-12" id="h1">
+                  <b>About OpenAfrica</b>
                 </h1>
                 <center>
-                  <p className="text-center col-6" style={{color:'#c9c9c9'}}>
+                  <p className="text-center col-lg-6" style={{color:'#c9c9c9', fontWeight:'700'}}>
                   We aim to be the most complete defi platform covering all aspect of defi and 
                   putting defi within the reach of millions</p>
                 </center>
+              </div>
+              <div className="row mt-5 justify-content-center">
+                <div className="col-lg-7 col-md-12">
+                  <img src={btc} style={{width:"inherit",height:"inherit"}} alt="btc" />
+                </div>
+                <div className="col-lg-5 col-md-12">
+                    <div>
+                      
+                    </div>
+                </div>
               </div>
             </section>
             {/* ABOUT END  */}

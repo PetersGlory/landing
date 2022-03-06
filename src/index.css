@@ -14,3 +14,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* About Section start */
+h1#h1{
+  margin-bottom: 20px;
+
+}
+
+.bg-secondarys{
+  background-color: rgb(0, 0, 73);
+  border-radius: 20px;
+}
+.bg-secondarys button.btn-primary{
+  border-radius: none !important;
+  background-color: rgb(24, 24, 80);
+  padding: 20px;
+  margin: 20px;
+}
+
+.bg-secondarys button.btn-primary:hover{
+  border-radius: none !important;
+  background-color: rgb(0, 0, 167);
+}
+/* About Section end */
