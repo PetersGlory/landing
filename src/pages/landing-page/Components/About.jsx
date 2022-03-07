@@ -1,5 +1,5 @@
 import React from 'react'
-import btc from "../../../assets/bg-home2.png"
+import btc from "../../../assets/bg-home.png"
 
 export const About = () => {
   return (
@@ -18,7 +18,7 @@ export const About = () => {
               </div>
               <div className="row mt-5 justify-content-center">
                 <div className="col-lg-7 col-md-12">
-                  <img src={btc} className="animate fadeIn" style={{width:"inherit",height:"inherit"}} alt="btc" />
+                  <img src={btc} className="animate fadeIn" style={{width:"inherit",height:"auto"}} alt="btc" />
                 </div>
                 <div className="col-lg-5 col-md-12">
                     <div>
