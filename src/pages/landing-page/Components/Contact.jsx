@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Contact = () => {
   return (
-    <div>
+    <div id="contact">
         
               {/* CONTACT US AREA STARTS */}
               <section className="container-fluid mt-5 pt-5 pb-5">

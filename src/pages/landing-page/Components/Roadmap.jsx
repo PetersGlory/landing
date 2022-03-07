@@ -1,8 +1,9 @@
 import React from 'react'
+import roadmap from "../../../assets/roadmap.png"
 
 export const Roadmap = () => {
   return (
-    <div>
+    <div id="roadmaps">
         
               {/* ROADMAP SECTION STARTS */}
               <section style={{backgroundColor:"rgb(32,35,155)"}} className="container-fluid mt-5 pt-5 pb-5">
@@ -11,9 +12,12 @@ export const Roadmap = () => {
                     <b>Roadmap</b>
                   </h1>
                 </div>
-                <div className="container">
-                  <div className="row mt-5 justify-content-center roadmap">
-                    <div className="col-lg-12 mt-2 row">
+                <div className="container mt-5">
+                  <div className="row mt-5 justify-content-between roadmap">
+                    <div className="col-lg-5 mt-2">
+                      <img src={roadmap} style={{width:"inherit"}} alt="roadmap" />
+                    </div>
+                    <div className="col-lg-7 mt-2 row">
                       <div className="col-lg-6 col-md-12 roadmap-right">
                         <h3 className="text-white"><b>STEP 1</b></h3>
                         <p className="col-11" style={{color:'#c9c9c9', fontWeight:'600', marginLeft:"-15px"}}>
@@ -36,8 +40,6 @@ export const Roadmap = () => {
                       Listing on pancakeswap
                       </p>
                       </div>
-                    </div>
-                    <div className="col-lg-12 mt-5 row">
                       <div className="col-lg-6 col-md-12 roadmap-right">
                       <h3 className="text-white"><b>STEP 3</b></h3>
                       <p className="col-11" style={{color:'#c9c9c9', fontWeight:'600', marginLeft:"-15px"}}>
@@ -60,8 +62,6 @@ export const Roadmap = () => {
                       BURNING 🔥
                       </p>
                       </div>
-                    </div>
-                    <div className="col-lg-12 mt-5 row">
                       <div className="col-lg-6 col-md-12 roadmap-right">
                         <h3 className="text-white"><b>STEP 5</b></h3>
                         <p className="col-11" style={{color:'#c9c9c9', fontWeight:'600', marginLeft:"-15px"}}>

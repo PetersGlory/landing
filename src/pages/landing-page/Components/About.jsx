@@ -3,10 +3,10 @@ import btc from "../../../assets/bg-home2.png"
 
 export const About = () => {
   return (
-    <div>
+    <div id="about">
          {/* ABOUT START */}
          <section className="container-fluid mt-5">
-              <div className=" row justify-content-center">
+              <div className=" row justify-content-center mt-5">
                 <h1 className="text-white text-center col-12" id="h1">
                   <b>About OpenAfrica</b>
                 </h1>
@@ -24,8 +24,10 @@ export const About = () => {
                     <div>
                       <ul>
                         <li className="row mt-1">
-                            <div className="col-1 bg-primary p-1" style={{fontSize:"30px",borderRadius:"50%", height:"40px"}}>
-                              <i className="fa fa-users text-white" style={{width:"inherit",height:"50px"}}></i>
+                            <div className="col-1 p-2 pl-2 justify-content-center">
+                              <div className="pt-3">
+                                <i className="fa fa-users text-white" style={{fontSize:"27px",width:"inherit",height:"50px"}}></i>
+                              </div>
                             </div>
                             <div className="col-11">
                               <h3 className="text-white text-start"><b>Decentralized Platform</b></h3>
@@ -36,8 +38,10 @@ export const About = () => {
                             </div>
                         </li>
                         <li className="row mt-4">
-                            <div className="col-1 bg-primary p-1" style={{fontSize:"30px",borderRadius:"50%", height:"40px"}}>
-                              <i className="fa fa-globe text-white" style={{width:"inherit",height:"50px"}}></i>
+                            <div className="col-1 p-2 pl-2 justify-content-center">
+                              <div className="pt-3">
+                                <i className="fa fa-globe text-white" style={{fontSize:"30px",width:"inherit",height:"50px"}}></i>
+                              </div>
                             </div>
                             <div className="col-11">
                               <h3 className="text-white text-start"><b>24/7 support</b></h3>
@@ -48,8 +52,10 @@ export const About = () => {
                             </div>
                         </li>
                         <li className="row mt-4">
-                            <div className="col-1 bg-primary p-1" style={{fontSize:"30px",borderRadius:"50%", height:"40px"}}>
-                              <i className="fa fa-star text-white" style={{width:"inherit",height:"50px"}}></i>
+                            <div className="col-1 p-2 pl-2 justify-content-center">
+                              <div className="pt-3">
+                                <i className="fa fa-star text-white" style={{fontSize:"30px",width:"inherit",height:"50px"}}></i>
+                              </div>
                             </div>
                             <div className="col-11">
                               <h3 className="text-white text-start"><b>Pentested</b></h3>

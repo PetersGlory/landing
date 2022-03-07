@@ -2,7 +2,7 @@ import React from 'react'
 
 const Token = () => {
   return (
-    <div>
+    <div id="token">
         
               {/* TOKEN DETAILS STARTS */}
               <section className="container-fluid mt-5 pt-5 pb-5">
