@@ -80,7 +80,7 @@ _______________________________________________________*/
     padding: 0;
   }
   body {
-  	  background: rgba(255, 255, 255, 0.918);
+  	  background: rgba(66, 66, 66, 0.918);
       line-height: 24px;
       color: #0ab1e8;
       font-size: 14px;
@@ -1256,7 +1256,7 @@ _______________________________________________________*/
     height: 100vh;
 }
 .banner-bg {
-    background: linear-gradient(90deg, rgba(66, 66, 66, 0.918) 0%, rgba(33,36,158,1) 40%, rgba(16,16,117,1) 100%);
+    background: linear-gradient(90deg, rgba(66, 66, 66, 0.918) 0%, rgb(61, 61, 63) 40%, rgba(3, 88, 74, 0.849) 100%);
     padding: 150px 0 100px 0;
     position: relative;
     overflow: hidden;
@@ -3466,7 +3466,7 @@ ul.tagcloud li a:hover {
 .newsletter-bg::before {
     content: "";
     position: absolute;
-    background: rgba(255, 255, 255, 0.918);
+    background: rgb(66,66,66);
     top: 0;
     height: 50%;
     width: 100%;
