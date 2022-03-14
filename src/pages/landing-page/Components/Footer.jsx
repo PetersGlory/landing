@@ -133,8 +133,9 @@ export const Footer = () => {
                 </div>
               </div>
             </div>
-          </div>
 </footer>
+          </div>
+
           <div className="scroll-top">
             <div className="scrollup" />
           </div>
