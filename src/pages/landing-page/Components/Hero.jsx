@@ -38,8 +38,7 @@ const Hero = () => {
             <br />
             <br />
             <br />
-            <br />
-            <br />
+            
         </section>
         {/* Bread Crumb END */} 
     </div>
