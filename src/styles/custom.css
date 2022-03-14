@@ -138,6 +138,9 @@ footer{
   .owl-nav button span {
     display: none;
   }
+  .link li a{
+    color: rgb(211, 211, 211) !important;
+  }
   a, a:focus, a:active, a:link, img {
     outline: none;
     text-decoration: none;
@@ -3556,6 +3559,7 @@ _______________________________________________________*/
 }
 .footer-block-contant p {
   margin-bottom: 0;
+  color: rgb(211, 211, 211) !important;
 }
 .footer-bottom h3 {
   font-size: 18px;
