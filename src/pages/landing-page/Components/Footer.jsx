@@ -36,6 +36,7 @@ export const Footer = () => {
               </div>
             </div>
             {/* News Letter End */}
+          <footer>
             <div className="container">
               <div className="footer-inner">
                 <div className="footer-middle">
@@ -133,6 +134,7 @@ export const Footer = () => {
               </div>
             </div>
           </div>
+</footer>
           <div className="scroll-top">
             <div className="scrollup" />
           </div>
