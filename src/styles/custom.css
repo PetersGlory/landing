@@ -3473,7 +3473,7 @@ ul.tagcloud li a:hover {
 }
 .footer .newsletter {
   position: relative;
-  background: #2b21ab;
+  background: #0704279d;
   padding: 50px 0;
   z-index: 1;
   -webkit-border-radius : 5px;
@@ -3532,6 +3532,7 @@ _______________________________________________________*/
   font-size: 15px; 
   position: relative;
   z-index: 0;
+  background-color: rgb(66,66,66) !important;
 }
 .footer:after {
   content: "";
