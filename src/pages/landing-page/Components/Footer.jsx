@@ -3,6 +3,7 @@ import React from 'react'
 export const Footer = () => {
   return (
     <div>
+      <footer>
          {/* FOOTER START */}
          <div className="footer dark-bg">
             {/* News Letter Start */}
@@ -36,7 +37,7 @@ export const Footer = () => {
               </div>
             </div>
             {/* News Letter End */}
-          <footer>
+          
             <div className="container">
               <div className="footer-inner">
                 <div className="footer-middle">
@@ -133,12 +134,12 @@ export const Footer = () => {
                 </div>
               </div>
             </div>
-</footer>
           </div>
 
           <div className="scroll-top">
             <div className="scrollup" />
           </div>
+</footer>
     </div>
   )
 }
