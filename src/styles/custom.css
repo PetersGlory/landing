@@ -3526,6 +3526,7 @@ _______________________________________________________*/
   font-size: 15px; 
   position: relative;
   z-index: 0;
+  /* color: white ; */
 }
 .footer:after {
   content: "";
@@ -3553,7 +3554,17 @@ _______________________________________________________*/
 }
 .footer-block-contant p {
   margin-bottom: 0;
+  color: #ffffff !important;
 }
+
+.link a{
+  color: #a4a4a4 !important;
+}
+
+.link a:hover{
+  color: #ffffff !important;
+}
+
 .footer-bottom h3 {
   font-size: 18px;
   margin-bottom: 0;
