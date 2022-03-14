@@ -48,7 +48,9 @@ export const Footer = () => {
                           </a> 
                         </div>
                         <div className="footer-block-contant">
-                          <p>Lorem khaled ipsum is a major key to success. It’s on you how you want to live your Lorem khaled ipsum is a major key to success. It’s on you how you want to live your life. Always remember in the jungle.</p>
+                          <p>
+                         OPENAFRICA  possesses a wide range of products that makes it a complete defi ecosystem. The complete suite of products makes it easy to onboard users into the crypto world .
+                          </p>
                           <ul className="social-icon">
                             <li><a title="Facebook" className="facebook" href='/something'><i className="fa fa-facebook-f" /></a></li>
                             <li><a title="Twitter" className="twitter" href='/something'><i className="fa fa-twitter" /></a></li>
