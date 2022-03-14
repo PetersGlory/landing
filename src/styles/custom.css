@@ -3468,7 +3468,7 @@ ul.tagcloud li a:hover {
 .newsletter-bg::before {
     content: "";
     position: absolute;
-    background: #1f0e9c;
+    background: #2f2f30;
     top: 0;
     height: 50%;
     width: 100%;
