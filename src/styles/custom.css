@@ -104,6 +104,9 @@ _______________________________________________________*/
     left: 100px;
     top: 0;
   }
+footer{
+	background-color: rgb(66,66,66) !important;
+}
   .se-pre-con {
     position: fixed;
     left: 0px;
