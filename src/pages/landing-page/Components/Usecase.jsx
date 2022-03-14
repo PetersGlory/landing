@@ -5,7 +5,7 @@ const Usecase = () => {
     <div>
         
             {/* USECASES SECTION START */}
-            <section style={{backgroundColor:"rgba(104, 104, 104, 0.918)"}} className="container-fluid mt-5 pt-5 pb-5">
+            <section style={{backgroundColor:"rgb(32,35,155)"}} className="container-fluid mt-5 pt-5 pb-5">
               <div className=" row justify-content-center mt-5">
                 <h1 className="text-white text-center col-12" id="h1">
                   <b>OpenAfrica Usecases on BSC</b>
