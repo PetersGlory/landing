@@ -1256,11 +1256,12 @@ _______________________________________________________*/
     height: 100vh;
 }
 .banner-bg {
-    background: linear-gradient(90deg, rgba(34,39,187,1) 0%, rgba(33,36,158,1) 40%, rgba(16,16,117,1) 100%);
+    background: linear-gradient(90deg, rgba(29, 32, 122, 0.87) 0%, rgba(33, 35, 158, 0.849) 40%, rgba(16, 16, 117, 0.89) 100%);
     padding: 150px 0 100px 0;
     position: relative;
     overflow: hidden;
     z-index: 0;
+    border-bottom-left-radius: 300px;
 }
 .banner-bg::after {
     background: rgba(0, 0, 0, 0) /*url("../images/banner-bg.svg")*/ no-repeat scroll left center;
